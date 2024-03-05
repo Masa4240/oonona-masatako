@@ -38,23 +38,15 @@ export const SideMenu: React.FC<Props> = ({ isOpen, onClose }) => {
               <LinkItem href="/menu">メニュー</LinkItem>
               <List marginLeft={theme.space[4]}>
                 <ListItem>
-                  <LinkItem href="/menu/course">コース</LinkItem>
+                  <LinkItem href="/menu/frink">Drink</LinkItem>
                 </ListItem>
                 <ListItem>
-                  <LinkItem href="/menu/a-la-carte">アラカルト</LinkItem>
-                </ListItem>
-                <ListItem>
-                  <LinkItem href="/menu/takeout">テイクアウト</LinkItem>
+                  <LinkItem href="/menu/food">Food</LinkItem>
                 </ListItem>
               </List>
             </ListItem>
-            <ListItem>
-              <LinkItem href="/reservation">ご予約</LinkItem>
-            </ListItem>
             {[
-              { name: 'Instagram', href: 'https://www.instagram.com/vineriasorcuore1213/', icon: faInstagram },
-              { name: 'Facebook', href: 'https://www.facebook.com/vineriasorcuore1213/', icon: faFacebook },
-              { name: 'YouTube', href: 'https://www.youtube.com/channel/UCf_AH6S5UxdRj-Vulta4Vqw', icon: faYoutube },
+              { name: 'Instagram', href: 'https://www.instagram.com/oonona_family/', icon: faInstagram },
             ].map((item) => (
               <ListItem key={item.name}>
                 <LinkItem href={item.href} isExternal>
