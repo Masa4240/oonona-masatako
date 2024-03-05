@@ -88,7 +88,7 @@ const grandMenu: Pick<Menu, 'name' | 'price'>[] = [
 ];
 
 
-const ALaCarteMenuPage = () => {
+const DrinkMenuPage = () => {
   const theme = useTheme();
 
   return (
@@ -222,4 +222,4 @@ const ALaCarteMenuPage = () => {
   );
 };
 
-export default ALaCarteMenuPage;
+export default DrinkMenuPage;
