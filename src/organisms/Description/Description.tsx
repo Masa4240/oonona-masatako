@@ -5,8 +5,9 @@ import { BackgroundImage } from '../../atoms/BackgroundImage/BackgroundImage';
 import { DescriptionItem } from './DescriptionItem';
 import { useWindowSize } from '../../utils/hooks/useWindowSize';
 
-export const Description = () => {
-  const theme = useTheme();
+// export const Description = () => {
+export const Description  = () => {
+    const theme = useTheme();
   const windowSize = useWindowSize();
   const ref = useRef<HTMLElement>(null);
 
@@ -29,6 +30,7 @@ export const Description = () => {
   }, [windowSize, ref]);
 
   return (
+    <div>
     <Flex
       as="section"
       position="relative"
@@ -49,7 +51,7 @@ export const Description = () => {
         marginX={theme.space[1]}
         color={theme.colors.white}
       >
-        笑顔になれる楽しい本格イタリアン
+        嵐を呼ぶたこ焼きバル
       </Heading>
       <Flex
         flexWrap="wrap"
@@ -59,26 +61,25 @@ export const Description = () => {
         marginTop={theme.space[8]}
         marginBottom={theme.space[12]}
       >
-        <DescriptionItem
+        {/* <DescriptionItem
           label="ヴィネリアソルクオーレ"
           title="Vineria Sorcuore"
           link={{ label: 'メニューを見る', url: '/menu' }}
         >
           {
-            '～心から笑顔になれるイタリアン～\nお客様に素敵な時間を過ごして頂きたい気持ちから作った造語\nソリーゾ：笑顔  ×  クオーレ：心 ＝ ソルクオーレ'
+            '～心から楽しいたこ焼きバル～\nお客様に素敵な時間を過ごして頂きたい気持ちから作った造語\nソリーゾ：笑顔  ×  クオーレ：心 ＝ ソルクオーレ'
           }
-        </DescriptionItem>
+        </DescriptionItem> */}
         <DescriptionItem
           label="こだわり"
           title="Commitment"
-          link={{
-            label: '予約する',
-            url: '/reservation',
-          }}
+          link={{ label: 'メニューを見る', url: '/menu' }}
         >
-          {`イタリア滞在経験のあるシェフ神谷がお料理をご提供します。\nシェフ自ら、契約農家に足を運び厳選した食材でイタリアの郷土料理の味を再現し、冬にはジビエやトリュフ、春には野菜を使ったりと季節によってワインのマリアージュを考えています。`}
-        </DescriptionItem>
+          {`嵐を呼んだ串カツ店長MASASHIがまた帰ってきます。\nこだわりのわいわいたこ焼きをみんなで焼きましょう！\nついでに次女ゆきの生誕を祝いましょう！`}
+          </DescriptionItem>
+        </Flex>
       </Flex>
-    </Flex>
+    </div>
+    
   );
 };

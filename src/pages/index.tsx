@@ -22,6 +22,7 @@ import { Description } from '../organisms/Description/Description';
 import { Section } from '../organisms/Section/Section';
 import { useWindowSize } from '../utils/hooks/useWindowSize';
 import { Number } from '../atoms/Number/Number.component';
+import Script from 'next/script';
 
 type LunchProps = {
   name: string;
@@ -83,9 +84,9 @@ export const IndexPage = () => {
     <Layout position="fixed" needGradation>
       <Description />
       <Section
-        title="Concept"
+        title="Event Concept"
         text={
-          '住宅街にひっそりと佇むイタリアンレストラン。\n広々としたカウンターのお席で時間を忘れてワインとお食事をお楽しみいただけます。'
+          '楽しいたこ焼き体験を\n大野家ゆきの生誕祭とともに'
         }
         image={{
           url:
@@ -94,9 +95,9 @@ export const IndexPage = () => {
         }}
       />
       <Section
-        title="Dinner"
+        title="Menu"
         text={
-          'イタリアの郷土料理から定番のお料理まで幅広いアラカルトメニュー。\n旬の食材、イタリアの食材を使ったお任せフルコース。\nその時々のお料理をご用意しております。'
+          '楽しみながらワイワイ焼くたこ焼き\n大阪のお酒\nゆきのバースデースペシャルメニューを用意してます'
         }
         image={{
           url:
@@ -107,8 +108,8 @@ export const IndexPage = () => {
       >
         <Flex justify="center" alignItems="center" marginTop={theme.space[8]} flexWrap="wrap">
           {[
-            { name: 'コースメニュー', href: '/menu/course' },
-            { name: 'アラカルトメニュー', href: '/menu/a-la-carte' },
+            { name: 'Food', href: '/menu/course' },
+            { name: 'Drink', href: '/menu/drink' },
           ].map((item) => (
             <Link
               href={item.href}
@@ -126,7 +127,7 @@ export const IndexPage = () => {
           ))}
         </Flex>
       </Section>
-      <Section
+      {/* <Section
         title="Lunch"
         text={''}
         image={{
@@ -286,10 +287,10 @@ export const IndexPage = () => {
       >
         <Flex align="center" justify="center" flexWrap="wrap" marginTop={theme.space[4]}>
           {[
-            { name: 'Instagram', href: 'https://www.instagram.com/vineriasorcuore1213/', icon: faInstagram },
-            { name: 'Facebook', href: 'https://www.facebook.com/vineriasorcuore1213/', icon: faFacebook },
-            { name: 'Twitter', href: 'https://twitter.com/vineriasorcuore', icon: faTwitter },
-            { name: 'YouTube', href: 'https://www.youtube.com/channel/UCf_AH6S5UxdRj-Vulta4Vqw', icon: faYoutube },
+            { name: 'Instagram', href: 'https://www.instagram.com/oonona_family/?hl=ja', icon: faInstagram },
+            // { name: 'Facebook', href: 'https://www.facebook.com/vineriasorcuore1213/', icon: faFacebook },
+            // { name: 'Twitter', href: 'https://twitter.com/vineriasorcuore', icon: faTwitter },
+            // { name: 'YouTube', href: 'https://www.youtube.com/channel/UCf_AH6S5UxdRj-Vulta4Vqw', icon: faYoutube },
           ].map((item) => (
             <Link
               href={item.href}
@@ -308,7 +309,7 @@ export const IndexPage = () => {
             </Link>
           ))}
         </Flex>
-      </Section>
+      </Section> */}
       <Section
         title="Information"
         image={{
@@ -334,13 +335,12 @@ export const IndexPage = () => {
           {[
             {
               name: '住所',
-              desc: '〒130-0021 東京都墨田区緑1丁目6-3あさみパレス1階',
+              desc: '神奈川県横浜市港北区大倉山2-5-9',
             },
-            { name: 'TEL', desc: '03-6284-0446' },
-            { name: '定休日', desc: '火曜日' },
-            { name: 'テイクアウト', desc: '11:30～22:00' },
-            { name: 'ランチ営業', desc: '11:30～14:30  (L.O. 14:00)' },
-            { name: 'ディナー営業', desc: '18:00～23:00  (L.O. 22:00)' },
+            { name: 'お店', desc: '大野菜ごはん店' },
+            { name: 'TEL', desc: '045-947-3822' },
+            { name: '営業日', desc: '3月17日(日)' },
+            { name: '営業時間', desc: '15:00～21:00  (L.O. 20:30)' },
           ].map((item, i) => (
             <Fragment key={i}>
               <Box>

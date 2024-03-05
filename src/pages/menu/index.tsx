@@ -26,29 +26,20 @@ export const MenuPage = () => {
           <SimpleGrid columns={[1, 1, 1, 2]} spacingX={6} spacingY={[0, 0, 0, 12]}>
             {[
               {
-                name: 'コース',
+                name: 'Food',
                 desc:
-                  'その時期のオススメ食材を贅沢に使ったフルコースです。\nメインディッシュは様々なお肉料理をご用意しており、ご希望をお伺いいたします。\n※コースはご予約のみとなります。',
+                  'MASASHIのこだわり抜いた厳選食事。こだわりすぎて自分で調理しないことにしました。',
                 button: {
                   label: '詳細を見る',
-                  link: '/menu/course',
+                  link: '/menu/food',
                 },
               },
               {
-                name: 'アラカルト',
-                desc: 'ワインに合う小皿のおつまみから、本格的なイタリアの郷土料理まで豊富に揃えております。',
+                name: 'drink',
+                desc: 'MASASHIのこだわり抜いた厳選酒。時に時空を超えることがある。',
                 button: {
                   label: '詳細を見る',
-                  link: 'menu/a-la-carte',
-                },
-              },
-              {
-                name: 'テイクアウト',
-                desc:
-                  'テイクアウトでお手軽にソルクオーレの本格イタリアンを楽しめるシリーズです！夜ご飯のおかずに困ったとき、お酒のお供に。',
-                button: {
-                  label: '詳細を見る',
-                  link: 'menu/takeout',
+                  link: 'menu/drink',
                 },
               },
             ].map((item, i) => (

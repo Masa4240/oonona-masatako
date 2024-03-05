@@ -1,7 +1,7 @@
 import React from 'react';
 import NextHead from 'next/head';
 
-const SITE_NAME = 'Vineria Sorcuore';
+const SITE_NAME = 'Oonona Masatako';
 
 type Props = {
   title: string;

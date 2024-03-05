@@ -77,16 +77,16 @@ export const Header: React.FC<Props> = ({ position = 'sticky', needGradation = f
         color="green.500"
       >
         <Link href="/" _hover={{ textDecoration: 'none' }}>
-          Vineria Sorcuore
+          Masatako Supported by Oonona
         </Link>
       </Heading>
       <Flex display={['none', 'none', 'flex', 'flex']}>
         <Box marginRight={theme.space[4]}>
           {[
-            { label: 'instagram', href: 'https://www.instagram.com/vineriasorcuore1213/', icon: faInstagram },
-            { label: 'facebook', href: 'https://www.facebook.com/vineriasorcuore1213/', icon: faFacebook },
-            { label: 'twitter', href: 'https://twitter.com/vineriasorcuore', icon: faTwitter },
-            { label: 'youtube', href: 'https://www.youtube.com/channel/UCf_AH6S5UxdRj-Vulta4Vqw', icon: faYoutube },
+            { label: 'instagram', href: 'https://www.instagram.com/oonona_family/', icon: faInstagram },
+            // { label: 'facebook', href: 'https://www.facebook.com/vineriasorcuore1213/', icon: faFacebook },
+            // { label: 'twitter', href: 'https://twitter.com/vineriasorcuore', icon: faTwitter },
+            // { label: 'youtube', href: 'https://www.youtube.com/channel/UCf_AH6S5UxdRj-Vulta4Vqw', icon: faYoutube },
           ].map((item, i) => (
             <Link
               href={item.href}
@@ -114,21 +114,15 @@ export const Header: React.FC<Props> = ({ position = 'sticky', needGradation = f
             <PopoverBody>
               <List styleType="none" spacing={theme.space[2]} paddingY={theme.space[2]}>
                 <ListItem>
-                  <HeaderLinkItem href="/menu/course">コース</HeaderLinkItem>
+                  <HeaderLinkItem href="/menu/drink">ドリンク</HeaderLinkItem>
                 </ListItem>
                 <ListItem>
-                  <HeaderLinkItem href="/menu/a-la-carte">アラカルト</HeaderLinkItem>
-                </ListItem>
-                <ListItem>
-                  <HeaderLinkItem href="/menu/takeout">テイクアウト</HeaderLinkItem>
+                  <HeaderLinkItem href="/menu/food">フード</HeaderLinkItem>
                 </ListItem>
               </List>
             </PopoverBody>
           </PopoverContent>
         </Popover>
-        <HeaderLinkItem href="/reservation" marginLeft={theme.space[4]}>
-          ご予約
-        </HeaderLinkItem>
       </Flex>
       <Button
         display={['block', 'block', 'none', 'none']}

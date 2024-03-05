@@ -9,7 +9,7 @@ import { Footer } from '../organisms/Footer/Footer';
 import { Notice } from '../models/notice';
 
 import useSWR from 'swr';
-import fetch from 'unfetch';
+// import fetch from 'unfetch';
 
 const fetcher = (url: string) => fetch(url).then((r) => r.json());
 

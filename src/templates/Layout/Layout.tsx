@@ -21,8 +21,9 @@ export const Layout: React.FC<Props> = ({ children, ...props }) => {
   return (
     <>
       <Head
-        title="Vineria Sorcuore"
-        description="イタリア語で SORRISO (笑顔) CUORE (心)。かけ合わせて作った造語それがソルクオーレです。心を込めて笑顔になれる楽しい本格イタリアンをお客様にお届けします。ぜひ、素敵な時間をお過ごしください。"
+        title="Masatako Supported by Oonona"
+        description="大野菜は東急東横線大倉山にある家族経営のアットホームな野菜屋とごはん屋です。大野菜の野菜は農家さんのお宅まで自分達で行って、今朝採りお野菜を店頭に並べています。
+        ぜひ大野菜の旬だからこそ美味しいお野菜で四季の変化を楽しんでください。"
         keywords={['Vineria Sorcuore', 'ヴィネリア ソルクオーレ', '両国', 'イタリアン']}
         imageUrl="https://jimdo-storage.freetls.fastly.net/image/59782918/5404c779-15aa-4d6d-91bb-f4083dbc737d.jpg"
       />
