@@ -22,7 +22,7 @@ import { Description } from '../organisms/Description/Description';
 import { Section } from '../organisms/Section/Section';
 import { useWindowSize } from '../utils/hooks/useWindowSize';
 import { Number } from '../atoms/Number/Number.component';
-import Script from 'next/script';
+
 
 type LunchProps = {
   name: string;
