@@ -42,20 +42,15 @@ const specialMenu: Pick<Menu, 'name' | 'price'>[] = [
 
 const craft: Pick<Menu, 'name' | 'price'>[] = [
     {
-      name: '第二の故郷！ 六甲ビール',
-      price: 1000,
-    },
-    {
-      name:
-        '故郷大阪を代表する 箕面ビール',
-      price: 1000,
-    },
-    {
       name: 'マサハイ(マサシオススメハイボール)',
       price: 700,
     },
     {
-      name: '櫻政宗 1合',
+      name: 'スカーレット',
+      price: 700,
+    },
+    {
+      name: '嫁の命の水',
       price: 700,
     },
   ];

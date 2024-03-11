@@ -35,7 +35,7 @@ export const MenuPage = () => {
                 },
               },
               {
-                name: 'drink',
+                name: 'Drink',
                 desc: 'MASASHIのこだわり抜いた厳選酒。時に時空を超えることがある。',
                 button: {
                   label: '詳細を見る',
