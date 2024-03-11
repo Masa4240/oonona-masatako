@@ -108,7 +108,7 @@ export const IndexPage = () => {
       >
         <Flex justify="center" alignItems="center" marginTop={theme.space[8]} flexWrap="wrap">
           {[
-            { name: 'Food', href: '/menu/course' },
+            { name: 'Food', href: '/menu/food' },
             { name: 'Drink', href: '/menu/drink' },
           ].map((item) => (
             <Link
