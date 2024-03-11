@@ -70,7 +70,7 @@ const FoodMenuPage = () => {
       </Heading>
       <Section
         image={{
-          url: 'https://jimdo-storage.freetls.fastly.net/image/59075570/37c6bc09-9243-421b-887c-6db02035fbca.vibe.jpg',
+          url: 'https://lh3.googleusercontent.com/pw/AP1GczMzzTbytQ8-Aa-OWqRvtrUSe7gCvysGisTO9oUTI_LwiILFm83Hy4andB-okhSW0w2fzjiKbp0lSIIMEjfztSb1wyNH6BaBU6OEZ6G-VlxNcxG86NvkVjDxVrqZhtZq7oaqVIEGkkBD1d3g22ruIfRYIw=w1200-h1200-s-no-gm?authuser=0',
           alt: 'Event Menu',
         }}
         title="Event Menu"
@@ -100,10 +100,10 @@ const FoodMenuPage = () => {
       </Section>
       <Section
         image={{
-          url: 'https://jimdo-storage.freetls.fastly.net/image/58316886/f97fd8ab-f945-423c-b8c0-af6e550bf194.jpg',
+          url: 'https://lh3.googleusercontent.com/pw/AP1GczMaALf3S7v5k57oDlvQ4kzRv3Tn4shDBHlq2hEZ0x_onXChf-0r9viaf3wScX4HbYctvWV8fdxbhIqfBSKrC6Y47AewoRZ0EySygs1izhKIwXWjakSPcJ9dl-eU8EsLd5Pd4cvBHBEwysdy1GgK861vKg=w3366-h1893-s-no-gm?authuser=1',
           alt: 'Grand Menu',
         }}
-        title="Grand Menu"
+        title="Otsumamiu Menu"
         reverse
       >
         <List>

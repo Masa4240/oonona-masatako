@@ -90,7 +90,7 @@ export const IndexPage = () => {
         }
         image={{
           url:
-            'https://jimdo-storage.freetls.fastly.net/image/58541700/a859a20a-51e0-411d-a2f0-68d07866595a.jpg?format=pjpg&quality=80&auto=webp&disable=upscale',
+            'https://lh3.googleusercontent.com/pw/AP1GczOh9mZmvfGk5hQparpCBY2DKzjscL2dklNwqu9amE5eXoG2zVSDALPTbF2v0yOllrnDs-Y2qY6mZjlw9quAYZB3SOx-cJArDFlKdxJQuZrmuXM9psveCZkn_KvQ5x9Q-tij2Tfp-gwRSCqPbAwvsX4JRg=w2241-h1893-s-no-gm?authuser=1',
           alt: 'concept',
         }}
       />
@@ -101,7 +101,7 @@ export const IndexPage = () => {
         }
         image={{
           url:
-            'https://lh3.googleusercontent.com/_zX6qErGYUvU4qSQDjTH4dt3M7ylANFICAFk0xRnbqwlCzk77Z1lFrwPODy5LGFsBQcKnOXztYM8ksB5dXI6kKfgel-Cw0vIbgjoR0YGqxL6oHTdsgAjLImxLwnfj76Fql_mnyp3lQ',
+            'https://lh3.googleusercontent.com/pw/AP1GczMzzTbytQ8-Aa-OWqRvtrUSe7gCvysGisTO9oUTI_LwiILFm83Hy4andB-okhSW0w2fzjiKbp0lSIIMEjfztSb1wyNH6BaBU6OEZ6G-VlxNcxG86NvkVjDxVrqZhtZq7oaqVIEGkkBD1d3g22ruIfRYIw=w1200-h1200-s-no-gm?authuser=0',
           alt: 'dinner',
         }}
         reverse

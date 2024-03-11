@@ -46,7 +46,7 @@ const craft: Pick<Menu, 'name' | 'price'>[] = [
       price: 700,
     },
     {
-      name: 'スカーレット',
+      name: 'しみわたるスカーレット',
       price: 700,
     },
     {
@@ -89,7 +89,7 @@ const DrinkMenuPage = () => {
       </Heading>
       <Section
         image={{
-          url: 'https://jimdo-storage.freetls.fastly.net/image/59075570/37c6bc09-9243-421b-887c-6db02035fbca.vibe.jpg',
+          url: 'https://lh3.googleusercontent.com/pw/AP1GczMaTDsaakf6Nmb7DxvHIt9rWCHRwfWlRVW24fewadfGpV5-IoOJGwYcQ5qYYqYT9JQyqEP_SkqylhKkpeoze1inF6h2UomArMBW17spsB9RcDEKuVClTko1uNhVYo5L9qILkie2QbfTWrXi2eCKsKNWLg=w1880-h1382-s-no-gm?authuser=1',
           alt: 'Event Menu',
         }}
         title="Event Menu"
@@ -119,7 +119,7 @@ const DrinkMenuPage = () => {
       </Section>
       <Section
         image={{
-          url: 'https://jimdo-storage.freetls.fastly.net/image/58316886/f97fd8ab-f945-423c-b8c0-af6e550bf194.jpg',
+          url: 'https://lh3.googleusercontent.com/pw/AP1GczOH8qHlZnmhvB3NWMCvS_9UVmWYgSaYbPfC0e0y1H_JHanoYq6ZL2TcebmsQlOR22QnftWvu0p8_PrsBeFjAM7vWTyrsPmv0WgF-SNleWOJlx7lfKI2ohZDhRYP8UqQRz3P-S8zGcI6XnocYlvYeGsYtg=w1065-h1893-s-no-gm?authuser=1',
           alt: 'Grand Menu',
         }}
         title="Masashi Select"
@@ -151,7 +151,7 @@ const DrinkMenuPage = () => {
       </Section>
       <Section
         image={{
-          url: "https://lh3.googleusercontent.com/pw/AP1GczPnEsfJGIdmXk6gOFjn7XiQ1YlRWk4jeohm99ERXNE3_WRnNA3jK8suko0ZB2TmRaBLpzo2lPL8yrwCxynsuskoPkDqkotf5VLT2ps6DaHgwyYbpRXhN1W5nPgUBlEJmYP2TJk5-R6spZqIkyIo6Sq62A=w1071-h1904-s-no-gm?authuser=0",
+          url: "https://lh3.googleusercontent.com/pw/AP1GczMlhgGCPmJjgGqI4auPWRG1B9uyiPVzcpJx4gM0PiBfN4trXYP7trBFqmD1ybmbeVkLDl7Ql6_m50QjxArojSnhGWtS6o4J0HwZKzXUAK5J0musRj5PQ7uamF0FZdOduQ9xuEN5ELP4w7il7a3yBPEMOg=w1108-h1477-s-no-gm?authuser=0",
           alt: 'GrandMenu',
         }}
         title="Grand Menu"

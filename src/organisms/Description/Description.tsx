@@ -42,7 +42,7 @@ export const Description  = () => {
       overflow="hidden"
       ref={ref}
     >
-      <BackgroundImage imageUrl="https://lh3.googleusercontent.com/DA704PWoPSzPemo3wHeFThNhaiF-tWVQQOxhQOOjafI7GSvr7smKUKODeciS_VY1FtOlFhq-_TZ7wqxQH9fSAik9tzXG7WNL-cpfwbxi3Oi6ycah5zDpFoEyLr78VTITz3snuNzMDA" />
+      <BackgroundImage imageUrl="https://lh3.googleusercontent.com/pw/AP1GczOndQ70QVQhPw5kKu3KnuRsjCrR80varyqwKYnBxpqnQoM0oFfeIRlXm2BZhgQmIky8lECzitjjmUFfeRGB7kQYbBPGtt-EWzppDxou3J1kUz8RZVrCI3-1pCTWiUiSRZ7gFNvMsFjVePcf2k642haF5Q=w1108-h1478-s-no-gm?authuser=1" />
       <Heading
         as="h1"
         size="2xl"

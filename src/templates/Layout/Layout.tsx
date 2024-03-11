@@ -25,7 +25,7 @@ export const Layout: React.FC<Props> = ({ children, ...props }) => {
         description="大野菜は東急東横線大倉山にある家族経営のアットホームな野菜屋とごはん屋です。大野菜の野菜は農家さんのお宅まで自分達で行って、今朝採りお野菜を店頭に並べています。
         ぜひ大野菜の旬だからこそ美味しいお野菜で四季の変化を楽しんでください。"
         keywords={['Vineria Sorcuore', 'ヴィネリア ソルクオーレ', '両国', 'イタリアン']}
-        imageUrl="https://jimdo-storage.freetls.fastly.net/image/59782918/5404c779-15aa-4d6d-91bb-f4083dbc737d.jpg"
+        imageUrl="https://lh3.googleusercontent.com/pw/AP1GczNcD6MpBzB6Whm1FDcxGHB6g_e1dgzUOhF9Ui4SEc15iG_xRTz7FjJ8rkwPGpFRO1K-bFWT5OVk7AQQZ9L7PqXvCrpdv9QuMs0NOrWZuzLk6ROdGMw6yi7R5jCtsQUCe_kljdC_fpArZBuu8nvKZEkrwA=w1087-h883-s-no-gm?authuser=1"
       />
       <Header {...props} />
       <Box
