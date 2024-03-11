@@ -42,12 +42,12 @@ const specialMenu: Pick<Menu, 'name' | 'price'>[] = [
 
 const craft: Pick<Menu, 'name' | 'price'>[] = [
     {
-      name: '六甲ビール',
+      name: '第二の故郷！ 六甲ビール',
       price: 1000,
     },
     {
       name:
-        '箕面ビール\n - おさるIPA\n - IPA\n - ピルスナー',
+        '故郷大阪を代表する 箕面ビール',
       price: 1000,
     },
     {
@@ -127,7 +127,7 @@ const DrinkMenuPage = () => {
           url: 'https://jimdo-storage.freetls.fastly.net/image/58316886/f97fd8ab-f945-423c-b8c0-af6e550bf194.jpg',
           alt: 'Grand Menu',
         }}
-        title="Masashi Premium Select"
+        title="Masashi Select"
         reverse
       >
         <List>
