@@ -7,7 +7,7 @@ import { Number } from '../../atoms/Number/Number.component';
 
 const food: Pick<Menu, 'name' | 'price'>[] = [
   {
-    name: 'セルフたこ焼き - 14個',
+    name: 'セルフたこ焼き - 一回分',
     price: 1000,
   },
   {
