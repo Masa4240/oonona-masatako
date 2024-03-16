@@ -35,30 +35,38 @@ const food: Pick<Menu, 'name' | 'price'>[] = [
 
 const tsumami: Pick<Menu, 'name' | 'price'>[] = [
     {
-      name: '冷菜1',
+      name: 'ザーサイ',
       price: 300,
     },
     {
-      name: '冷菜2',
+      name: '春雨サラダ',
       price: 300,
     },
     {
-      name: '冷菜3',
+      name: 'ごぼうサラダ',
       price: 300,
     },
     {
-      name: '揚げ物1',
-      price: 500,
+      name: 'きゅうりの肉みそ',
+      price: 300,
     },
     {
-        name: '揚げ物２',
-        price: 500,
+        name: 'アメリカンドッグ',
+        price: 350,
     },      
     {
-        name: '揚げ物３',
-        price: 500,
+        name: '牛すじコロッケ',
+        price: 550,
     },
-  ];
+    {
+      name: 'エビフライ',
+      price: 550,
+  },
+  {
+    name: 'ピリ辛ハッシュドポテト',
+    price: 450,
+},
+];
 
 const FoodMenuPage = () => {
   const theme = useTheme();

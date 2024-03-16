@@ -4,7 +4,7 @@ import { Text, useTheme, ListItem, List, Heading } from '@chakra-ui/core';
 import { Section } from '../../organisms/Section/Section';
 import { Menu } from '../../models/menu';
 import { Number } from '../../atoms/Number/Number.component';
-import Image from 'next/image';
+
 const specialMenu: Pick<Menu, 'name' | 'price'>[] = [
   {
     name: '生ビール(イベント価格)',
@@ -93,7 +93,6 @@ const DrinkMenuPage = () => {
           alt: 'Event Menu',
         }}
         title="Event Menu"
-        width={300}
         >
         <List>
           {specialMenu.map((item, i) => (
