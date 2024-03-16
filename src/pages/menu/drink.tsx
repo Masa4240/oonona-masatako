@@ -32,7 +32,7 @@ const specialMenu: Pick<Menu, 'name' | 'price'>[] = [
   },
   {
     name: 'チャミスル',
-    price: 800,
+    price: 700,
   },
   {
     name: 'クライナー',
@@ -93,7 +93,8 @@ const DrinkMenuPage = () => {
           alt: 'Event Menu',
         }}
         title="Event Menu"
-      >
+        width={300}
+        >
         <List>
           {specialMenu.map((item, i) => (
             <ListItem

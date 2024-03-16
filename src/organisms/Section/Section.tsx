@@ -51,7 +51,7 @@ export const Section: React.FC<Props> = ({
         {imageSubstitute || (
           <Image
             alt={image.alt}
-            width="100%"
+            width="auto%"
             height={[theme.sizes[40], '100%', '100%', '100%']}
             objectFit="cover"
             src={image.url}
